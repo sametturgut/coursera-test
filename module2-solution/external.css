@@ -1,0 +1,84 @@
+﻿body {
+}
+
+*{
+    box-sizing:border-box;
+}
+@media (min-width: 992px){
+    section {
+        width: 30%;
+        height: 400px;
+        position: relative;
+        margin: 1%;
+        overflow: auto;
+        border: 1px solid black;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #donerSection {
+        width: 48%;
+        height: 350px;
+    }
+    #lahmacunSection {
+        width: 48%;
+        height: 350px;
+    }
+    #iskenderSection {
+        width: 98%;
+        height: 250px;
+    }
+    section {
+        position: relative;
+        margin: 1%;
+        overflow: auto;
+        border: 1px solid black;
+        float: left;
+    }
+}
+
+@media (max-width: 767px){
+    section {
+        position: relative;
+        overflow: auto;
+        margin: 3%;
+        border: 1px solid black;
+        float: left;
+    }
+}
+
+p {
+    position: relative;
+    float: left;
+    padding: 15px;
+    font-family: Times New Roman, Segoe UI, sans-serif;
+}
+h1{
+    font-family: Segoe UI, sans-serif, Atlan;
+    text-align:center;
+    margin:50px;
+}
+h4 {
+    font-family: Atlan, Segoe UI, sans-serif;
+    position: relative;
+    float: right;
+    color: green;
+    background-color: gray;
+    border: 1px solid red;
+    padding: 20px;
+    margin: 0px;
+}
+
+#donerSection {
+    background-color: lightseagreen;
+    
+}
+
+#lahmacunSection{
+    background-color: khaki;
+}
+
+#iskenderSection{
+    background-color:aquamarine;
+}
