@@ -1,0 +1,38 @@
+﻿body{
+    padding-top:170px;
+}
+
+#nav-list #listid1, #nav-list #listid2{
+    border-bottom: 1px solid;
+    border-color:white;
+}
+
+#collapsable-nav{
+    text-align:center;
+    position:relative;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration:none;
+}
+.navbar-brand a{
+    color:black;
+    width:auto;
+    height:auto;
+}
+
+.contentDiv{
+    position:relative;
+}
+
+#contentSection{
+    margin-top:50px;
+}
+
+section{
+    width:95%;
+}
+#listid{
+    font-size:14px;
+    height: 40px;
+}
